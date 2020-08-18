@@ -46,6 +46,7 @@ a {
   margin: 10px 20px;
   text-decoration: none;
 }
+
 a:hover {
   color: #EAF6F6;
 }
@@ -71,10 +72,21 @@ a:hover {
   right: 300px;
 }
 
+.top-cloud:hover {
+  /* transform: scale(115%); */
+  transition: all 1.5s ease-in-out;
+  transform: translateX(200px);
+}
+
 .bottom-cloud {
   position: absolute;
   bottom: 300px;
   left: 250px;
+}
+
+.bottom-cloud:hover {
+  transition: all 1.5s ease-in-out;
+  transform: translateY(200px);
 }
 
 .edit-img {
